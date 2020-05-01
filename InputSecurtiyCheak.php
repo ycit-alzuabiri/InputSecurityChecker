@@ -14,7 +14,13 @@ public function _constrint()
 {
 
 }
-
+/**
+ * THis Function to avoid XSS attak 
+ * 
+ * input : data from form input 
+ * 
+ * output: data after filtering xss attak 
+ */
 public function avoidXSS($input)
 {
 
